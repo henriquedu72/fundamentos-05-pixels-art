@@ -1,13 +1,18 @@
+
+body {
+
+}
 #color-palette {
-
-
+    /* width: 250;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto; */
 }
 
 .color {
 width: 50px;
 height: 50px; 
 display: inline-block;
-margin: 0%;
 }
 
 #black {
@@ -26,3 +31,17 @@ margin: 0%;
     background-color: aqua;
 }
 
+#pixel-board {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pixel {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
