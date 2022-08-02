@@ -14,3 +14,5 @@ document.getElementById('pink').style.border = 'solid black 1px';
 // }
 
 
+
+// document.getElementById('black').inner.class = "selected";
