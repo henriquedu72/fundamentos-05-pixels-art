@@ -15,19 +15,19 @@ height: 50px;
 display: inline-block;
 }
 
-#black {
+.black {
     background-color: black;
 }
 
-#pink {
+.pink {
     background-color: rgb(255, 0, 191);
 }
 
-#blueviolet {
+.blueviolet {
     background-color: blueviolet;
 }
 
-#aqua {
+.aqua {
     background-color: aqua;
 }
 
@@ -36,16 +36,23 @@ display: inline-block;
     height: 250px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 
 .pixel {
-    background-color: rgb(255, 255, 255);
+
     display: inline-block;
     border: 1px solid black;
     width: 40px;
     height: 40px;
+    background-color: white;
+
 }
 
 .selected {
     
+}
+
+.button-clear{
+
 }
