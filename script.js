@@ -7,19 +7,6 @@ document.querySelector('.pink').style.border = 'solid black 1px';
 document.querySelector('.pink').style.border = 'solid black 1px';
 
 
-
-// function criaDiv() {
-// let pixelBoard = document.querySelector('#pixel-board');
-// for (let index = 0; index < 25; index += 1) {
-//     let pixelBoardDivs = pixelBoardDivs[index];
-
-//     let pixelBoardElements = document.creatElement('div');
-//     pixelBoard.appendChild(pixelBoardElements);
-//     document.querySelector('#pixel-board').class  = "pixel";
-// }
-// criaDiv();
-// }
-
 function onClick() {
     alert('hora da diversao');
 }
@@ -50,5 +37,13 @@ function setColor() {
   }
  
 setColor();
-}
 
+
+document.getElementById("pixel-board").addEventListener("click", function(event){
+  let selectedColor = document.querySelector(".selected");
+  let newColor = window.getComputedStyle(selectedColor).backgroundColor;
+
+  event.target.style.backgroundColor = newColor;
+})
+
+}

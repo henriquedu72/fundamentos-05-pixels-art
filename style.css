@@ -3,10 +3,10 @@ body {
 
 }
 #color-palette {
-    /* width: 250;
+    width: 250;
     height: 60px;
     margin-left: auto;
-    margin-right: auto; */
+    margin-right: auto;
 }
 
 .color {
@@ -32,11 +32,12 @@ display: inline-block;
 }
 
 #pixel-board {
-    width: 250px;
-    height: 250px;
+    width: 206px;
+    height: 206px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    margin-bottom: -15px;
+
 }
 
 .pixel {
@@ -46,13 +47,11 @@ display: inline-block;
     width: 40px;
     height: 40px;
     background-color: white;
-
-}
-
-.selected {
-    
+    margin-bottom: -5px;
+    margin-left: -4px;
 }
 
 .button-clear{
 
 }
+
