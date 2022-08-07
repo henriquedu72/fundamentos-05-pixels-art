@@ -46,4 +46,11 @@ document.getElementById("pixel-board").addEventListener("click", function(event)
   event.target.style.backgroundColor = newColor;
 })
 
+document.getElementById("button-clear").addEventListener("click", function(){
+  let pixels = document.getElementsByClassName("pixel");
+  for(pixel of pixels){
+    pixel.style.backgroundColor = "white";
+  }
+});
+
 }
